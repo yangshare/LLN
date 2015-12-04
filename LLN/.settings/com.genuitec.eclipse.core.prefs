@@ -1,0 +1,4 @@
+#Tue Jun 09 10:27:57 CST 2015
+eclipse.preferences.version=1
+validator.Checked=WebRoot/Y_STW/lib/aurora/aac.js,WebRoot/Y_STW/lib/aurora/vorbis.js,WebRoot/Y_STW/lib/aurora/ogg.js,WebRoot/Y_STW/lib/aurora/opus.js,WebRoot/Y_STW/lib/aurora/mp3.js,WebRoot/Y_STW/lib/aurora/flac.js
+validator.Unchecked=

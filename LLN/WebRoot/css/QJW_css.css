@@ -1,0 +1,181 @@
+body {
+   		  
+	      background-image:url(../images/fancy_deboss.png);
+	      -webkit-font-smoothing: antialiased;
+	      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	      color: #232525;
+	      padding-top:70px;
+    }
+
+    #slides,
+    #slides2,
+    #slides3 {
+      display: none;
+      margin-bottom:50px;
+    }
+
+    .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../Y_QJW/img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    a:link,
+    a:visited {
+      color: #333
+    }
+
+    a:hover,
+    a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+.container_title{
+	width:66px;
+	margin:auto;
+	margin-top:75px;
+	margin-left:270px;
+	background-color:#CC99CC;
+	border:2px #CC99CC solid;
+	
+}
+.container{
+	width:800px;
+	height:450px;
+	margin-top:10px;
+	border:5px #CC99CC solid;
+	
+}
+.container img{
+	width:800px;
+	height:450px;
+	
+	
+}
+.QJW_center_title{
+	width:66px;
+	margin:auto;
+	margin-top:20px;
+	margin-left:270px;
+	background-color:#CCCC99;
+	border:2px #CCCC99 solid;
+}
+.QJW_center{
+	width:800px;
+	
+	float:left;
+	margin:auto;
+	margin-left:270px;
+	margin-top:20px;
+	border:2px #CCCC99 solid;
+}
+.QJW_center div{
+	float:left;
+	width:340px;
+	height:200px;
+	margin:20px;
+	
+	border:2px #CCCC99 solid;
+}
+.ShowDiv{
+	display:none;
+	position:fixed;
+	top:5px;
+	left:25px;
+	width:1300px;
+	height:550px;
+	
+	z-index:9999999999;/*越大代表越置前，如可定义为： z-index:9999若定义为-1，代表为最底层。*/
+}
+.QJW_foot{
+	float:left;
+	clear:both;
+	text-align:center;
+	color:black;
+	margin:auto;
+	margin-top:50px;
+	margin-left:270px;
+	margin-bottom:50px;
+}

@@ -1,0 +1,71 @@
+.BBS_s_Ycontent{
+	
+	background-image:url("../images/BBS_second_bg.gif");
+	
+	margin:auto;
+	background-color:#F2F1EC;
+	
+	
+}
+.BBS_s_center{
+	
+	
+	margin:75px auto;
+	
+}
+	.BBS_s_title{/*帖子*/
+		background-color:#00B5E1;
+		margin:10px auto;
+		padding-top:10px;
+		padding-bottom:10px;
+		border-radius: 8px;
+		width:845px;
+		border-style:outset;
+	}
+	.BBS_s_content{/*评论*/
+		width: 845px;
+		margin:auto;
+		
+		
+	}
+		.BBS_s_contentDiv{/*评论块*/
+			border:1px #94998a solid;
+			margin:10px auto;
+			color:black;
+			border-radius: 8px;
+		}
+			.BBS_s_auther{/*评论人和时间*/
+				color:white;
+				background-color:#868686;
+				border-radius: 8px 8px 0px 0px;
+				border-bottom:1px #94998a solid;
+			}
+			.BBS_s_comment{/*评论内容*/
+				border-top:1px black solid;
+				background-color:#eaedd5;
+				border:2px greed solid;
+			}
+			.BBS_s_foot{
+				
+				margin-left:690px;
+			}
+
+.BBS_foot{
+	
+	width:500px;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:10px;
+	color:black;
+}
+.BBS_s_gobackBBS{
+	position:fixed;
+	top:540px;
+	left:20px;
+	border-radius: 8px;
+	background-color:#00B5E1;
+	width:50px;
+	height:50px;
+	text-align: center;
+	
+}

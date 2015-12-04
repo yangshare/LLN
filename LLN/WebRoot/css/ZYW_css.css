@@ -1,0 +1,35 @@
+.ZYW_center{
+	background-color:white; 
+	position:absolute;
+	top:80px;
+	margin:auto;
+	width:1340px;
+	
+	
+}
+.Xunlei{
+	float:left;
+	width:265px;
+	border: solid #ddd 1px;
+}
+	.Xunlei_title{
+		width:265px;
+		height:30px;
+		background-color: #a1a1a1;
+		border-bottom: solid #ddd 1px;
+	}
+	.Xunlei_body{
+		color:black;
+	}
+.ZYW_manager{
+	position:absolute;
+	margin:auto auto 10px auto;
+	float:right;
+}
+.ZYW_center_center{
+	border: solid #ddd 1px;
+	color:black;
+	margin:auto;
+	width:700px;
+	text-align: center;
+}

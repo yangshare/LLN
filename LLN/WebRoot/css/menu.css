@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+<!--
+	
+	div.Ybody {
+		background-image:url(images/20120920165508_EuenZ.jpeg);
+		background-repeat:no-repeat;
+		background-position:center;
+		position:absolute;
+		left:0px;
+		top:0px;
+		margin:0px 1.5px;
+		width:1345px;
+		height:768px;
+	}
+	
+	div.Ymenu {
+		/*border:2px #00FF00 solid;*/
+		position:absolute;
+		left:0px;
+		top:0px;
+		width:1345px;
+		height:71px;
+		
+		
+	}
+	
+	
+	div.Ylogo {
+		position:absolute;
+		left:205px;
+		top:0px;
+		width:74px;
+		height:71px;
+	}
+	body,td,th {
+		color: #FFFFFF;
+	}
+	body {
+		background-color: #999999;
+	}
+	-->

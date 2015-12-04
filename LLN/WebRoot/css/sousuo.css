@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* CSS Document */
+.Ycontent {
+	/*position: absolute;*/
+	margin:72px auto;
+	
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=teal,endColorStr=white); /*IE*/ 
+	background:-moz-linear-gradient(top,teal,white);/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(Teal), to(white));/*谷歌*/ 
+	background-color: Teal;
+	
+}
+
+.Ysou_div {
+	margin: auto;
+	zoom: 1;
+	width: 960px;
+}
+
+.Ysou_inp {
+	width: 540px;
+	height: 27px;
+	margin: 10px 0px;
+	border: 1px #0066FF solid;
+	border-radius: 5px;
+}
+
+.Ysou_btn {
+	background-color: #00A6D2;
+	border-style: none;
+	border-radius: 8px;
+	width: 100px;
+	height: 31px;
+	margin: 10px 0px auto -3px;
+}
+
+.Ysou_btn:hover {
+	
+	background-color: #2868c8;
+	cursor: pointer;
+	border-right-style: outset;
+	border-bottom-style: outset;
+}
